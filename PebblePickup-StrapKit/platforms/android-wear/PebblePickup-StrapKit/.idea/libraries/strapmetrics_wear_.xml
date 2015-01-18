@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="strapmetrics-wear-">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/wear/build/intermediates/exploded-aar/strapmetrics-wear/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/wear/build/intermediates/exploded-aar/strapmetrics-wear/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

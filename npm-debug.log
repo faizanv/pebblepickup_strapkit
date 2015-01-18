@@ -1,0 +1,100 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'strapkit', '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'strapkit', null ]
+6 verbose cache add name=undefined spec="strapkit" args=["strapkit",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'strapkit',
+7 verbose parsed url   path: 'strapkit',
+7 verbose parsed url   href: 'strapkit' }
+8 silly lockFile c677eeb6-strapkit strapkit
+9 verbose lock strapkit /home/martinza/.npm/c677eeb6-strapkit.lock
+10 silly lockFile c677eeb6-strapkit strapkit
+11 silly lockFile c677eeb6-strapkit strapkit
+12 verbose addNamed [ 'strapkit', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile a2d29c0d-strapkit strapkit@
+15 verbose lock strapkit@ /home/martinza/.npm/a2d29c0d-strapkit.lock
+16 silly addNameRange { name: 'strapkit', range: '*', hasData: false }
+17 verbose request where is /strapkit
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 0d9a8f4c0c489d78
+20 verbose url raw /strapkit
+21 verbose url resolving [ 'https://registry.npmjs.org/', './strapkit' ]
+22 verbose url resolved https://registry.npmjs.org/strapkit
+23 verbose request where is https://registry.npmjs.org/strapkit
+24 info trying registry request attempt 1 at 21:39:27
+25 verbose etag "99KE46HZXRBOML1W1EGI0YV6A"
+26 http GET https://registry.npmjs.org/strapkit
+27 http 200 https://registry.npmjs.org/strapkit
+28 silly registry.get cb [ 200,
+28 silly registry.get   { date: 'Sun, 18 Jan 2015 02:39:27 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     etag: '"DLRB8XJPKH1QQLZLH09T61HSA"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     'content-length': '16830',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-jfk1032-JFK',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1421548767.156952,VS0,VE428',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly addNameRange number 2 { name: 'strapkit', range: '*', hasData: true }
+30 silly addNameRange versions [ 'strapkit',
+30 silly addNameRange   [ '0.1.0',
+30 silly addNameRange     '0.1.2',
+30 silly addNameRange     '0.1.3',
+30 silly addNameRange     '0.1.4',
+30 silly addNameRange     '0.1.5',
+30 silly addNameRange     '0.1.7',
+30 silly addNameRange     '0.1.8',
+30 silly addNameRange     '0.1.9' ] ]
+31 verbose addNamed [ 'strapkit', '0.1.9' ]
+32 verbose addNamed [ '0.1.9', '0.1.9' ]
+33 silly lockFile d3147baf-strapkit-0-1-9 strapkit@0.1.9
+34 verbose lock strapkit@0.1.9 /home/martinza/.npm/d3147baf-strapkit-0-1-9.lock
+35 silly lockFile 8354cd27--org-strapkit-strapkit-0-1-9-tgz https://registry.npmjs.org/strapkit/-/strapkit-0.1.9.tgz
+36 verbose lock https://registry.npmjs.org/strapkit/-/strapkit-0.1.9.tgz /home/martinza/.npm/8354cd27--org-strapkit-strapkit-0-1-9-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/strapkit/-/strapkit-0.1.9.tgz',
+37 verbose addRemoteTarball   '6114156b8201c40e30d170107e712b6a92837788' ]
+38 info retry fetch attempt 1 at 21:39:27
+39 verbose fetch to= /tmp/npm-24248-tPnx-8lc/registry.npmjs.org/strapkit/-/strapkit-0.1.9.tgz
+40 http GET https://registry.npmjs.org/strapkit/-/strapkit-0.1.9.tgz
+41 http 200 https://registry.npmjs.org/strapkit/-/strapkit-0.1.9.tgz
+42 silly lockFile 8354cd27--org-strapkit-strapkit-0-1-9-tgz https://registry.npmjs.org/strapkit/-/strapkit-0.1.9.tgz
+43 silly lockFile 8354cd27--org-strapkit-strapkit-0-1-9-tgz https://registry.npmjs.org/strapkit/-/strapkit-0.1.9.tgz
+44 silly lockFile d3147baf-strapkit-0-1-9 strapkit@0.1.9
+45 silly lockFile d3147baf-strapkit-0-1-9 strapkit@0.1.9
+46 silly lockFile a2d29c0d-strapkit strapkit@
+47 silly lockFile a2d29c0d-strapkit strapkit@
+48 error Error: EACCES, mkdir '/home/martinza/.npm/strapkit/0.1.9'
+48 error  { [Error: EACCES, mkdir '/home/martinza/.npm/strapkit/0.1.9']
+48 error   errno: 3,
+48 error   code: 'EACCES',
+48 error   path: '/home/martinza/.npm/strapkit/0.1.9' }
+49 error Please try running this command again as root/Administrator.
+50 error System Linux 3.13.0-44-generic
+51 error command "/usr/bin/node" "/usr/bin/npm" "install" "strapkit" "-g"
+52 error cwd /home/martinza/Projects/PebblePickup/pebblepickup_strapkit
+53 error node -v v0.10.33
+54 error npm -v 1.4.28
+55 error path /home/martinza/.npm/strapkit/0.1.9
+56 error code EACCES
+57 error errno 3
+58 error stack Error: EACCES, mkdir '/home/martinza/.npm/strapkit/0.1.9'
+59 verbose exit [ 3, true ]

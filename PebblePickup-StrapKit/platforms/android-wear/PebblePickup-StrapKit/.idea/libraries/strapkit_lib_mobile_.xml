@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="strapkit_lib-mobile-">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mobile/build/intermediates/exploded-aar/strapkit_lib-mobile/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/mobile/build/intermediates/exploded-aar/strapkit_lib-mobile/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
